@@ -21,6 +21,6 @@ export default class Globals {
 
   static BASE_URL: string =
     process.env.NODE_ENV === "production"
-      ? "http://creationhouse.eu-west-1.elasticbeanstalk.com/"
+      ? "http://althaf-1.eu-west-1.elasticbeanstalk.com/"
       : "http://localhost:4000/";
 }
